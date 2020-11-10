@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+            #googlelogo {
+                font-size: 100px;
+                font-family: product;
+                /*font-weight: bold;*/
+                text-align: center;
+                padding: 120px;
+                
+            }
+            .skyblue{
+                color: #4285F4;
+            }
+            .red{
+                color: #DB4437;
+            }
+            .green{
+                color: #0F9D58;
+            }
+            .orange{
+                color: #F4B400;
+            }
+
+            #google{
+                alignment-adjust: central;
+                height: 40px;
+                border-color: #cccccc;
+                width: 600px; 
+                border-radius: 20px;
+            }
+            #googlesearchbutton{
+                height: 40px;
+                width: 200px;
+                
+
+            }
+            #googleimages{
+                text-align: center;
+
+
+            }
+            #otherbuttons{
+
+                vertical-align: top;
+                text-align: right;
+                font-size: 20px;
+            }
+            #feelinglucky{
+                height:40px;
+                width: 200px;
+                
+                
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <div id="otherbuttons">
+            <a href="imageSearch.html"> Google Images  </a> <a href="googleadvancedsearch.html"> Google Advanced Search</a>
+
+        </div>
+        <div id="googlelogo">
+            <span class="skyblue">G</span><span class="red">o</span><span class="orange">o</span><span class="skyblue">g</span><span class="green">l</span><span class="red">e</span>
+            <form action="https://google.com/search">
+                <input id="google" type="text" name="q" >
+                <div> <input id="googlesearchbutton" type="submit" value="Google Search">
+                    <input id="feelinglucky"type="submit" name="btnI" value="I am Feeling Lucky" class="button">
+                </div>
+            </form>
+    </body>
+</html>
