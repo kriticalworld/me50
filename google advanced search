@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+
+
+            #feelinglucky {
+                text-align: center;
+
+            }
+            #otherbuttons{
+                text-align: center;
+            }
+
+
+            #googleonadvanced{
+                font-size: 40px;
+                font-weight: bold;
+                background-color: #ECECEC;
+
+                padding: 5px;
+            }
+            
+            .skyblue{
+                color: #4285F4;
+            }
+            .red{
+                color: #DB4437;
+            }
+            .green{
+                color: #0F9D58;
+            }
+            .orange{
+                color: #F4B400;
+            }
+            #advancedsearch{
+                font-family: product, sans-serif;
+                color: #E60026;
+                font-size: 25px;
+                padding-left: 40px;
+                padding-top: 30px;
+            }
+            #findpageswith  {
+                font-family: 'arial', sans-serif;
+
+                font-size: 20px;
+                padding-bottom: 40px;
+                padding-left: 40px;
+                margin-top: 40px;
+            }
+            #aside {
+                alignment-adjust:central
+            }
+
+            .row{
+                width: 250px;
+
+            }
+            .element{
+                width: 250px;
+                font-size: 20px;
+                padding-bottom: 25px;
+                padding-left: 40px;
+            }
+            .sideline{
+                font-size: 15px
+            }
+
+            .advancedbutton{
+                background-color: #3399ff;
+                    color: white;
+                    height: 40px;
+                    font-weight: bold;
+                    margin-left: 720px;
+                    width: 150px;
+                
+            }
+            #googlesearchonimages{
+
+                vertical-align: top;
+                text-align: right;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+       
+        <div id="googleonadvanced">
+            <span class="skyblue">G</span><span class="red">o</span><span class="orange">o</span><span class="skyblue">g</span><span class="green">l</span><span class="red">e</span>
+            
+
+        </div>
+        <div id="googlesearchonimages">
+            <a href="index.jsp"> Google Search</a>
+        </div>
+        <div id="advancedsearch">
+            Advanced Search
+            <hr>
+        </div>
+        <div id="findpageswith">
+
+              Find pages with... 
+        </div>
+
+        <div id="aside">
+            <form action="https://google.com/search">
+                <table>
+                    <tr class="row"><td class="element">all these words:</td><td class="element"><input type="text" size="70" name="as_q" ></td><td class="sideline">Type the important words: tri-colour rat terrier
+</td></tr>                    <tr class="row"><td class="element">this exact word or phrase:</td><td class="element"><input type="text" size="70" name="as_epq"> </td><td class="sideline">Put exact words in quotes: "rat terrier"</td></tr>
+                    <tr class="row"><td class="element">any of these words:</td><td class="element"><input type="text" size="70" name="as_oq"></td><td class="sideline">Type OR between all the words you want: miniature OR standard</td></tr>
+                    <tr class="row"><td class="element">none of these words:</td><td class="element"><input type="text" size="70" name="as_eq"></td><td class="sideline">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</td></tr>
+                   
+
+                   
+                </table>
+                <input type="submit" class="advancedbutton" value="Advanced Search">
+            </form>
+        </div>
+    </body>
+</html>
