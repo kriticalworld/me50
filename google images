@@ -77,7 +77,7 @@
     <body>
 
         <div id="googlesearchonimages">
-            <a href="index.jsp"> Google Search</a>
+            <a href="index.html"> Google Search</a>
         </div>
 
         <div id="googleimages">
